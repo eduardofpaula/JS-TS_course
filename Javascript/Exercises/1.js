@@ -7,9 +7,9 @@ const nome = "Eduardo";
 const sobrenome = "Farias de Paula";
 const idade = 23;
 const peso = 69;
-const altura = 1.80;
+const altura = 1.8;
 let imc = peso / (altura * 2);
-let anoNascimento =  2023 - idade;
+let anoNascimento = 2023 - idade;
 
 console.log(`${nome} ${sobrenome} tem ${idade} anos e pesa ${peso} kg`);
 console.log(`Tem ${altura} de altura e seu IMC é de ${imc}`);
