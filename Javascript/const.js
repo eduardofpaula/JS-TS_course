@@ -18,3 +18,14 @@ resultadoTriplicado = resultadoTriplicado + 5;
 
 console.log(resultadoTriplicado);
 console.log(typeof segundoValor);
+
+// ISSO PODE
+const array = [1,2,3,4,5]
+array.pop()
+array.push('eduardo')
+console.log(array)
+// ISSO NÃOOOOO PODE
+const teste = [1,2,4]
+teste = "edu"
+const teste2 = "[3,5,67,8]"
+teste2 = "edueduuu"

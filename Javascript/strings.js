@@ -16,7 +16,7 @@ console.log(testeString.replace(/Teste/, "Salve Salve")); // expressão regular
 console.log(testeString2.replace(/r/g, "$")); //flag g muda todos as letras r
 //tamanho da string
 console.log(testeString2.length);
-//cortar um pedaço da string
+//cortar um pedaço da string, numeros negativos pegar o tamanho maximo da string, e subtraem, mostrando os elementos até o valor do resultado
 console.log(testeString2.slice(23, 26));
 console.log(testeString2.substring(testeString2.length - 5)); //fatiamento tbm, mas é mais pratico usar o slice
 //dividir uma string
